@@ -13,10 +13,10 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file('./release.keystore')
-            storePassword 'releaseStorePassword'
-            keyAlias 'releaseKeyAlias'
-            keyPassword 'releaseKeyPassword'
+            storeFile file('./test.jks')
+            storePassword 'tamagoyaki3260'
+            keyAlias 'key0'
+            keyPassword 'tamagoyaki3260'
         }
     }
     buildTypes {
